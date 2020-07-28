@@ -142,14 +142,14 @@ $(".more-races-accordion").on('click', function(event){
     $('.collapse').collapse('toggle') 
 })
 
-$("#explore-yaris").hover(
-    e => {
-        $(".explore-thumb")[0].setAttribute("src", "assets/home/explore.gif")
-    },
-    e => {
-        $(".explore-thumb")[0].setAttribute("src", "assets/home/yaris-thumb.jpg")
-    }
-)
+// $("#explore-yaris").hover(
+//     e => {
+//         $(".explore-thumb")[0].setAttribute("src", "assets/home/explore.gif")
+//     },
+//     e => {
+//         $(".explore-thumb")[0].setAttribute("src", "assets/home/yaris-thumb.jpg")
+//     }
+// )
 
 $("#test-one").hover(
     e => {
